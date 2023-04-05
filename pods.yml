@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
     - name: hrapi
-      image: kammana/hr-api:0.0.1
+      image: kammana/hr-api:0.0.2
       ports:
         - containerPort: 8080
