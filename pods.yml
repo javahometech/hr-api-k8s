@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: hrapi
+  labels:
+    app: hrapi
+spec:
+  containers:
+    - name: hrapi
+      image: kammana/hr-api:0.0.1
+      ports:
+        - containerPort: 8080
